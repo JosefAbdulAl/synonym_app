@@ -51,22 +51,27 @@ function App() {
             value={word}
             onChange={(e) => setWord(e.target.value)}
           />
-        </div>
-        <div>
+      </div>
+      <div>
         <label>Synonyms: </label>  
           <input
             type="text"
             value={synonymsInput}
             onChange={(e) => setSynonymsInput(e.target.value)}
           />
-        </div>
-        <div><button onClick={searchWord}>Search</button>
-        <button onClick={addWord}>Add</button></div>
-      <ul>
-        {synonyms.map(synonym => (
-        <li key={synonym}>{synonym}</li>
-        ))}
-      </ul>
+      </div>
+      <div>
+        <button onClick={searchWord}>Search</button>
+        <button onClick={addWord}>Add</button>
+      </div>
+      <h2>Synonyms for "{word}"</h2>
+      <div>
+        <ul>
+          {synonyms.map(synonym => (
+          <li key={synonym}>{synonym}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }
