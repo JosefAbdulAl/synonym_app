@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  padding:20px;
+}
+
+.App input {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
