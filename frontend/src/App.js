@@ -64,6 +64,10 @@ function App() {
         <button onClick={searchWord}>Search</button>
         <button onClick={addWord}>Add</button>
       </div>
+      <div>
+          Instructions: To add a word, write the word in the "word" text box, and its synonyms in the "synonyms" text box, each synonym separated by a comma.
+          Then click the "add" button. To search for a word simply write a word in the "word" text box and click the "search" button.
+      </div>
       <h2>Synonyms for "{word}"</h2>
       <div>
         <ul>
