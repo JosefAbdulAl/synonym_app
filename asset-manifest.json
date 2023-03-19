@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/synonym_app/static/css/main.71d0841e.css",
+    "main.js": "/synonym_app/static/js/main.a558be5d.js",
+    "static/js/787.cda612ba.chunk.js": "/synonym_app/static/js/787.cda612ba.chunk.js",
+    "index.html": "/synonym_app/index.html",
+    "main.71d0841e.css.map": "/synonym_app/static/css/main.71d0841e.css.map",
+    "main.a558be5d.js.map": "/synonym_app/static/js/main.a558be5d.js.map",
+    "787.cda612ba.chunk.js.map": "/synonym_app/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71d0841e.css",
+    "static/js/main.a558be5d.js"
+  ]
+}
